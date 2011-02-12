@@ -2,8 +2,9 @@ Aggregate Feed Generator
 ========================
 About
 -----
-One of our clients has multiple blogs that they wanted a 
-feed that combined the posts from all of those blogs.
+The Aggregate Feed Generator is a PHP script that will 
+read one or more (existing) RSS/Atom feeds and generate 
+a new feed composed of the entries from the other feeds.
 
 To do this, we used the [SimplePie][1] library, which is 
 used by WordPress to deal with feeds, and pulled in all 
