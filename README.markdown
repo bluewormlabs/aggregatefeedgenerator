@@ -37,7 +37,7 @@ specify your feeds in `$feedUrls`.
 1. The URLs to the feeds are the path to `feed.php` followed 
    by `?type=rss2` or `?type=atom`
 2. To have browsers detect the feeds, place the following 
-   (replacing `URL`) into your <head>:
+   (replacing `URL`) into your &lt;head&gt;:
       
       > &lt;link rel="alternate" type="application/rss+xml"  href="`URL`?type=rss2" title="My Blogs (RSS)"&gt;  
       > &lt;link rel="alternate" type="application/atom+xml"  href="`URL`?type=atom" title="My Blogs (Atom)"&gt;
