@@ -13,8 +13,8 @@ The result is a small (currently, under 200 lines with
 comments) script that pulls in any number of feeds and 
 generates a feed for them.
 
-Supported input types: [any supported by SimplePie][4]
-Supported output types: [RSS 2.0][2], [Atom][3]
+Supported input types: [any supported by SimplePie][4]  
+Supported output types: [RSS 2.0][2], [Atom][3]  
 License: [zlib/libpng license][5]
 
 Installation
@@ -39,8 +39,7 @@ specify your feeds in `$feedUrls`.
 2. To have browsers detect the feeds, place the following 
    (replacing `URL`) into your <head>:
       
-      > &lt;link rel="alternate" type="application/rss+xml"  href="`URL`?type=rss2" title="My Blogs (RSS)"&gt;
-
+      > &lt;link rel="alternate" type="application/rss+xml"  href="`URL`?type=rss2" title="My Blogs (RSS)"&gt;  
       > &lt;link rel="alternate" type="application/atom+xml"  href="`URL`?type=atom" title="My Blogs (Atom)"&gt;
 
 [1]: http://simplepie.org
