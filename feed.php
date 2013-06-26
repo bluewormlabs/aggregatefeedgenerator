@@ -1,6 +1,6 @@
 <?php
 /*
-	Copyright (c) 2011 Blue Worm Labs LLC
+	Copyright (c) 2013 Blue Worm Labs LLC
 
 	This software is provided 'as-is', without any express or implied
 	warranty. In no event will the authors be held liable for any damages
@@ -26,8 +26,8 @@
 define('FEED_TITLE', 'My Aggregated Feeds'); // title of the new feed
 define('FEED_LINK', 'http://example.com'); // url to set as a link for the new feed
 define('FEED_DESC', 'Multiple feeds in one!'); // description of the new feed
-define('FEED_LANG', 'en-us'); // language for the feed
-define('FEED_COPY', 'Copyright (C) 2011'); // copyright string
+define('FEED_LANG', 'en-US'); // language for the feed
+define('FEED_COPY', 'Copyright (C) 2013'); // copyright string
 define('FEED_IMG_URL', ''); // URL to an image file (~favicon) [RSS]
 define('FEED_IMG_LINK', ''); // URL to link the image to [RSS]
 define('FEED_URL', "http://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']); // url of the feed, incl. ?type=X
@@ -56,7 +56,7 @@ $feedUrls = array(
 
 
 
-// Include the Simple Pie library; turn of error reporting as PHP will spit out a ton
+// Include the Simple Pie library; turn off error reporting as PHP will spit out a ton
 // of deprecation warnings and the like here which makes the output beyond invalid
 error_reporting(0);
 require_once(SIMPLEPIE);
